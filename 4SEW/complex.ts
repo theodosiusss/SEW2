@@ -46,7 +46,17 @@ export default class Complex {
     }
 
    public toString(){
-        return `${this._real} + ${this._imaginary}i`
+
+        if(this._imaginary > 0) {
+            return `${this._real}+${this._imaginary}i`
+        }
+        if(this._imaginary < 0){
+            return `${this._real}${this._imaginary}i`
+        }
+        if(this._imaginary === 0){
+            return `${this._real}+i`
+
+        }
     }
 
     public static equals(complex1 : Complex, complex2:Complex){

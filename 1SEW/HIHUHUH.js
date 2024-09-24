@@ -35,7 +35,7 @@ console.log(convert(132))
 
 // User case 2
 
-const string1 = "eineM12121212uter helaoe23"
+const string1 = "eineM12121212r helaoe23"
 const number = 12317263294
 
 console.log(string1)
@@ -64,7 +64,7 @@ function rot13(text) {
 
 // User Stroy 3
 
-const array1 = ["penis", "andi", "apdi", "1z"]
+const array1 = ["griaß euch", "andi", "apdi", "1z"]
 console.log(sortLexical(array1))
 
 function sortLexical(inputArray) {
